@@ -1,0 +1,14 @@
+.post {
+    margin-top: 10%;
+}
+.post h1 {
+    margin-bottom: 5%;
+}
+.post p {
+    margin-top: 5%;
+    font-size: 1.2em;
+}
+.post img {
+    width: 100%;
+    border-radius: 2%;
+}

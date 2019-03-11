@@ -1,0 +1,66 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Crimson Text', serif;
+}
+
+/* style header */
+
+.navbar {
+    background-color: black;
+    color: white;
+}
+
+/* logo */
+
+h2 {
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Dancing Script', cursive;
+}
+
+/* menu */
+
+.row {
+    width: 100%;
+}
+
+
+.nav-item:hover {
+    color:white;
+}
+.nav-item {
+    position: relative;
+    color: white;
+}
+.nav-item:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #aaa;
+    height: 1px;
+}
+
+.nav-item:hover:after {
+    width: 100%;
+}
+
+.btn-header {
+    color: white;
+}
+
+.btn-header:hover {
+    color: white;
+    opacity: initial;
+    border: 1px solid white;
+}
+

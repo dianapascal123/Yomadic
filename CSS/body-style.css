@@ -1,0 +1,31 @@
+hr {
+    height: 1.5px;
+    background-color: #333; 
+}
+
+.body-introduction, .recent-post {
+    margin-top: 7%;
+}
+
+.body-introduction p {
+    margin-top: 2%;
+    text-align: justify;
+}
+
+.col-lg-5 {
+    padding: 0;
+} 
+/* style the images in the recent travel notes section */
+
+.post {
+    margin-top: 5%;
+}
+.summary {
+    margin-top: 5%;
+    text-align: justify;
+}
+.recent-image {
+    width: 100%;
+    height: 50%;
+    border-radius: 2%;
+}

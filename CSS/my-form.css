@@ -1,0 +1,11 @@
+.my-form {
+    margin-top: 10%;
+}
+.my-form h2 {
+    margin-bottom: 5%;
+}
+
+#submit-button {
+    background-color: black;
+    color: white;
+}

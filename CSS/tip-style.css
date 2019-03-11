@@ -1,0 +1,33 @@
+#content {
+    margin-top: 10%;
+}
+
+hr {
+    background-color: black;
+    height: 1.5px;
+}
+
+.introduction p {
+    margin-top: 5%;
+    text-align: justify;
+}
+
+.content ol {
+    padding: 0;
+}
+
+.content p {
+    margin-top: 3%;
+    text-align: justify;
+}
+.content h4 {
+    margin-top: 3%;
+}
+
+.tips-image {
+    width: 100%;
+}
+
+p {
+    font-size: 1.2em;
+}

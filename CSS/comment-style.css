@@ -1,0 +1,34 @@
+/* for the whole sections */
+.comments {
+    margin-top: 15%;
+}
+
+/* section title */
+#comments-title {
+    text-align: center;
+}
+
+/* hr between comments */
+
+.delimeter {
+    height: 0.5px;
+    background-color: #333; 
+}
+
+.comm {
+    margin-top: 5%;
+}
+
+hr {
+    height: 1px;
+    background-color: black;
+}
+
+#comment-info {
+    color: red;
+}
+
+#btn-submit {
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,31 @@
+.destination {
+    margin-top: 5%;
+}
+.titles-row {
+    margin-top: 3%;
+}
+hr {
+    height: 2px;
+    background-color: #333; 
+}
+
+/* center continent name */
+.continent-name {
+    margin-top: 5%;
+    text-align: center;
+}
+
+/* style continent images */
+.continent-img {
+    height: 100%;
+    width: 100%;
+    border-radius: 5%;
+}
+
+.continent-img:hover {
+    opacity: 0.8;
+}
+
+.col-height {
+    height: 30%;
+}
