@@ -5,6 +5,7 @@ $_SESSION['last_visited'] = $_SERVER['REQUEST_URI'];
 <html>
     <head>
         <title>Yomadic</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel = "stylesheet" href = "/css/bootstrap.min.css">
         <link rel = "stylesheet" type="text/css" href="/CSS/headerstyle.css">
         <link rel = "stylesheet" type="text/css" href="/CSS/complete-post-style.css">
@@ -24,7 +25,7 @@ $_SESSION['last_visited'] = $_SERVER['REQUEST_URI'];
                 <?php include ("display_complete_post.php") ?>
             </div>
             <?php include ("commentsection.php") ?>
-            <?php include ("pagefooter.php") ?>
         </div>
+        <?php include ("pagefooter.php") ?>
     </body>
 </html>

@@ -7,6 +7,8 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Pacifico" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Dancing+Script|Pacifico" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel = "stylesheet" type="text/css" href="/CSS/PageFooter-style.css">
         <link rel = "stylesheet" type="text/css" href="/CSS/headerstyle.css">
         <link rel = "stylesheet" type="text/css" href="/CSS/PageFooter-style.css">
         <link rel = "stylesheet" type="text/css" href="/CSS/comment-style.css">
@@ -32,6 +34,6 @@
             </div>
             <?php include ("commentsection.php") ?>
         </div>
-        
+        <?php include ("pagefooter.php") ?>
     </body>
 </html>

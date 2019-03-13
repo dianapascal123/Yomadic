@@ -4,10 +4,9 @@
             <div class = "row">
                 <div class = "col-lg-4 col-md-4 col-sm-4">
                     <div class="navbar-nav navbar-center">
-                        <a class="nav-item nav-link active" href="../main.php">Home </a>
+                        <a class="nav-item nav-link active" href="../index.php">Home </a>
                         <a class="nav-item nav-link" href="/Php/destinationspage.php">Destinations</a>
                         <a class="nav-item nav-link" href="/Php/traveltips.php">Travel Tips</a>
-                        
                     </div>
                 </div>
                 <div class = "col-lg-4 col-md-4 col-sm-4">

@@ -4,9 +4,9 @@
 ?>
     
     <div id = "form_post">
-        <!-- <div class = "container"> -->
             <h3>Add post</h3>
             <form action = "../main.php" method = "post">
+                <?php include ("Php/errors.php") ?>
                 <div class = "form-group">
                     <label for = "title">Title</label>
                     <input type = "text" class = "form-control" name = "title">
@@ -25,6 +25,5 @@
                 </div>
                 <button type = "submit" class = "btn my-btn" id = "submit">Submit</button>
             </form>
-        <!-- </div> -->
     </div>
     

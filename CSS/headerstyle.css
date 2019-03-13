@@ -55,7 +55,7 @@ h2 {
 }
 
 .btn-header {
-    color: white;
+    color: white !important; 
 }
 
 .btn-header:hover {

@@ -17,9 +17,9 @@ hr {
 
 /* style continent images */
 .continent-img {
-    height: 100%;
     width: 100%;
     border-radius: 5%;
+    max-height: 190px;
 }
 
 .continent-img:hover {

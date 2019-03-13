@@ -2,11 +2,14 @@
 <html>
     <head>
         <title>Yomadic</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Pacifico" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Dancing+Script|Pacifico" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
         <link rel = "stylesheet" type="text/css" href="/CSS/headerstyle.css">
         <link rel = "stylesheet" type="text/css" href="/CSS/traveltips-style.css">
         <link rel = "stylesheet" type="text/css" href="/CSS/comment-style.css">
+        <link rel = "stylesheet" type="text/css" href="/CSS/PageFooter-style.css">
         <link rel = "stylesheet" href = "/css/bootstrap.min.css">
         <script src = "/Javascript/tipRedirect.js"></script>
         <!-- file to redirect to tip that was clicked -->
@@ -34,6 +37,6 @@
             </div>
             <?php include ("commentsection.php") ?>
         </div>
-        
+        <?php include ("pagefooter.php") ?>
     </body>
 </html>
